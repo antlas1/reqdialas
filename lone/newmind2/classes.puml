@@ -1,0 +1,58 @@
+@startuml
+'Create graph:
+'set path=%path%;<java location>;<graphviz location>
+'java -jar <plantuml.jar location>/plantuml.jar classes.puml
+
+struct Room {
+    Хранит все данные по комнате
+   ---
+    * string desc (короткое описание, на первых версиях можно не делать)
+    * string ldesc (длинное описание)
+    * int battle_size (размер поля битвы)
+    * Room* north (указатель на комнату к северу, далее аналогично)
+    * Room* south
+    * Room* west
+    * Room* east
+    * Room* up
+    * Room* down
+}
+
+
+struct Map {
+   Хранит все параметры карты
+   ---
+   * Room rooms[] (массив со всеми комнатами)
+   * Room* startRoom (начальная комната для персонажа)
+   * Hero hero (ГГ)
+   * Monter monsters[] (массив со всеми монстрами)
+}
+
+
+struct Hero {
+  ГГ
+  ---
+  * int HP
+  * int energy (сколько кристаллов энергии насобирал)
+  * selectedWeapon
+  * room* location (в какой комнате сейчас)
+}
+
+
+struct Monter {
+  Плохиш
+  ---
+  * int HP
+  * int energy (сколько кристаллов энергии отдаст после поражения)
+  * type (тип монсрюги - штурмовик, и так далее)
+  * room* location
+  * nav_state (тип навигации `статичный`, `по маршруту`, `преследователь`)
+  * bool is_terminator (после встречи с героем, начигаем его преследовать до победного)
+  * state (очень важный параметр - боевое состояние, 
+например сейчас стоит, движется к герою, от героя, 
+готовиться стрелять)
+}
+
+Map --> Room
+Map --> Hero 
+Map --> Monter
+@enduml
