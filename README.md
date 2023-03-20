@@ -1,8 +1,8 @@
 # ТЗ для проектов Диалас
 
-Правила оформления для одиночных игр: [link](https://github.com/antlas1/reqdialas/blob/main/manuals/selfengine.md)
-Логика работы с пользователями, издателем и тестерами: [link](https://github.com/antlas1/reqdialas/blob/main/izdat.md)
-Выпуск релизов: [link](https://github.com/antlas1/reqdialas/blob/main/manuals/release.md)
+* Правила оформления для одиночных игр: [link](https://github.com/antlas1/reqdialas/blob/main/manuals/selfengine.md)
+* Логика работы с пользователями, издателем и тестерами: [link](https://github.com/antlas1/reqdialas/blob/main/izdat.md)
+* Выпуск релизов: [link](https://github.com/antlas1/reqdialas/blob/main/manuals/release.md)
 
 ## Однопользовательские проекты
 
