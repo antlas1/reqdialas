@@ -21,6 +21,7 @@
 2. Если игра планируется на выкладываете на GitHub, то просьба указать лиценцию (в корне репозитория LICENSE). Рекомендую лицензию [MIT](https://opensource.org/license/mit/), коротенькая, понятная.
 <details>
 <summary>Пример текста лицензии</summary>
+  
 ```
 MIT License
 
@@ -44,7 +45,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+  
 </details>
+
+
 3. Собрать версию в релиз-режиме. У пользователей не будет debug-библиотек. Как это делать в студии написано тут [How to: Create a Release Build | Microsoft Learn](https://learn.microsoft.com/en-us/cpp/build/how-to-create-a-release-build?view=msvc-170), как с помощью CMake есть тут [Step 12: Packaging Debug and Release — CMake 3.26.0 Documentation](https://cmake.org/cmake/help/latest/guide/tutorial/Packaging%20Debug%20and%20Release.html). Проверить, что запускается и работает.
 4. Запаковать экзешник и ресурсы в zip и проверить на всякий случай в [VirusTotal](https://www.virustotal.com/gui/) . Были прецеденты из-за особенностей парсинга пользовательского ввода и разрядности компилятора защитник windows определял как вирус. Лучше перестраховаться, люди могут и не запустить ваше творение.
 5. Выложить в облако. Я рекомендую для OpenSource проектов в github releases. Очень подробная инструкция тут: [Managing releases in a repository - GitHub Docs](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
