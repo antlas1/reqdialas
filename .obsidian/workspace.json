@@ -49,14 +49,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "izdat.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04bf852869ac0b66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "about/welcome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dfc1a2218b691822",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "about/welcome.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -101,6 +125,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "e87034b39c7f3e69",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -122,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "about/welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "about/welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "about/welcome.md"
               }
             }
           }
@@ -181,15 +213,30 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-table-editor:Open Markdown Table Editor": false
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "marp:Marp: Open Preview": false
     }
   },
-  "active": "e7d63120250cd464",
+  "active": "dfc1a2218b691822",
   "lastOpenFiles": [
+    "about/tavern.png",
+    "about/monopoly.png",
+    "about/welcome.pdf",
+    "about/blindgame.png",
+    "about/welcome.md",
     "izdat.md",
+    "develop.md",
+    "about/rules.png",
+    "about/heisenbug2022.png",
+    "about/media101.png",
+    "marp.exe",
+    "about/titlePicture.jpg",
+    "titlePicture.png.md",
+    "README.md",
+    "about/titlePicture.jpg.crdownload",
+    "about",
     "manuals/selfengine.md",
     "manuals/release.md",
-    "README.md",
     "quests/dry/README.md",
     "quests/dry",
     "quests",
@@ -201,8 +248,6 @@
     "lone/space-mines/LICENSE",
     "lone/space-mines/spacemines.go",
     "lone/space-mines",
-    "lone/space-manes",
-    "develop.md",
     "lone/newmind2/readme.md",
     "lone/newmind2/classes.png"
   ]
