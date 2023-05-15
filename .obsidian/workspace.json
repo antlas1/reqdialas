@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/welcome.md",
+                "file": "controltypes.md",
                 "mode": "source",
                 "source": false
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/welcome.md",
+                "file": "controltypes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/welcome.md",
+                "file": "controltypes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/welcome.md"
+                "file": "controltypes.md"
               }
             }
           }
@@ -219,24 +219,26 @@
   },
   "active": "dfc1a2218b691822",
   "lastOpenFiles": [
+    "[.md",
+    "controltypes.md",
+    "manuals/release.md",
+    "develop.md",
+    "izdat.md",
+    "README.md",
+    "about/welcome.md",
     "about/tavern.png",
     "about/monopoly.png",
     "about/welcome.pdf",
     "about/blindgame.png",
-    "about/welcome.md",
-    "izdat.md",
-    "develop.md",
     "about/rules.png",
     "about/heisenbug2022.png",
     "about/media101.png",
     "marp.exe",
     "about/titlePicture.jpg",
     "titlePicture.png.md",
-    "README.md",
     "about/titlePicture.jpg.crdownload",
     "about",
     "manuals/selfengine.md",
-    "manuals/release.md",
     "quests/dry/README.md",
     "quests/dry",
     "quests",
@@ -248,7 +250,6 @@
     "lone/space-mines/LICENSE",
     "lone/space-mines/spacemines.go",
     "lone/space-mines",
-    "lone/newmind2/readme.md",
-    "lone/newmind2/classes.png"
+    "lone/newmind2/readme.md"
   ]
 }
