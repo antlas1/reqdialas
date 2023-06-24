@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "25700c233c6a64b1",
+        "id": "6c4fe9caef9e4e57",
         "type": "tabs",
         "children": [
           {
-            "id": "84eed035ead367c1",
+            "id": "eb2a412b15d2e352",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,67 +20,18 @@
             }
           },
           {
-            "id": "3f7e5fe01d36b2d3",
+            "id": "8a4fecf018e79bcf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04af3bdd407461df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e7d63120250cd464",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "izdat.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04bf852869ac0b66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "about/welcome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfc1a2218b691822",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "controltypes.md",
+                "file": "lone/basic/readme.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "controltypes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "controltypes.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "controltypes.md"
+                "file": "README.md"
               }
             }
           }
@@ -217,15 +168,17 @@
       "marp:Marp: Open Preview": false
     }
   },
-  "active": "dfc1a2218b691822",
+  "active": "eb2a412b15d2e352",
   "lastOpenFiles": [
-    "[.md",
+    "lone/basic/readme.md",
+    "README.md",
+    "lone/basic",
+    "izdat.md",
+    "about/welcome.md",
     "controltypes.md",
+    "[.md",
     "manuals/release.md",
     "develop.md",
-    "izdat.md",
-    "README.md",
-    "about/welcome.md",
     "about/tavern.png",
     "about/monopoly.png",
     "about/welcome.pdf",
@@ -249,7 +202,6 @@
     "lone/space-mines/doc",
     "lone/space-mines/LICENSE",
     "lone/space-mines/spacemines.go",
-    "lone/space-mines",
     "lone/newmind2/readme.md"
   ]
 }
