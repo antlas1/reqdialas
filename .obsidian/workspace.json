@@ -183,6 +183,8 @@
   },
   "active": "b7f566bc3d464bbf",
   "lastOpenFiles": [
+    "lone/newmind2/readme.md",
+    "manuals/release.md",
     "manuals/release_ready.png",
     "manuals/release_github.png",
     "manuals/sel_release.gif",
@@ -194,7 +196,6 @@
     "about/welcome.md",
     "controltypes.md",
     "[.md",
-    "manuals/release.md",
     "develop.md",
     "about/tavern.png",
     "about/monopoly.png",
@@ -213,9 +214,7 @@
     "quests/dry",
     "quests",
     "lone/space-mines/README.md",
-    "lone/space-mines/doc/spacemines.png",
     "lone/space-mines/doc",
-    "lone/space-mines/LICENSE",
-    "lone/newmind2/readme.md"
+    "lone/space-mines/LICENSE"
   ]
 }
