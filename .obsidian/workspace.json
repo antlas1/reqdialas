@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "b7f566bc3d464bbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "manuals/release.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8a4fecf018e79bcf",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "manuals/release.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "manuals/release.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "manuals/release.md"
               }
             }
           }
@@ -168,8 +181,10 @@
       "marp:Marp: Open Preview": false
     }
   },
-  "active": "eb2a412b15d2e352",
+  "active": "b7f566bc3d464bbf",
   "lastOpenFiles": [
+    "manuals/sel_release.gif",
+    "manuals/sel_release.mp4",
     "lone/basic/readme.md",
     "README.md",
     "lone/basic",
@@ -201,7 +216,6 @@
     "lone/space-mines/doc/isaaman-24.png",
     "lone/space-mines/doc",
     "lone/space-mines/LICENSE",
-    "lone/space-mines/spacemines.go",
     "lone/newmind2/readme.md"
   ]
 }
