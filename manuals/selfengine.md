@@ -180,6 +180,44 @@ int main(int argc, char* argv[])
 ```
 
 В [reqdialas/manuals/audio(github.com)](https://github.com/antlas1/reqdialas/tree/main/manuals/audio) можно найти полный пример проекта, со звуками. Для запуска их надо скопировать в рабочий каталог приложения. 
+Для настройки громкости, посмотрите следующие примеры:
+
+```cpp
+//наш звуковой движок
+static ma_engine snd_engine;
+static ma_sound g_curr_sound;
+
+//инициализация звука
+bool initSound()
+{
+    ma_result result = ma_engine_init(NULL, &snd_engine);
+    if (result != MA_SUCCESS) {
+        std::cout << "Failed init sound engine\n";
+        return false;  // Failed to initialize the engine.
+    }
+    //можем настроить глобальный звук тут
+    ma_engine_set_volume(&snd_engine, 1.0); //1.0 - громкость всех звуков 100%
+                                            //0.5 - громкость всех звуков 50%
+                                            //0.0 - звук выключен
+    return true;
+}
+
+//либо проигрывать каждый со своей громкостью, также можно ввести позиционирование
+void playSoundWithVolume(std::string sound_file_name, float volume_rel) {
+    ma_result result = ma_sound_init_from_file(&snd_engine, sound_file_name.c_str(), 0, NULL, NULL, &g_curr_sound);
+    if (result != MA_SUCCESS) {
+        std::cout << "Failed load sound " << sound_file_name << "\n";
+    }
+    ma_sound_set_volume(&g_curr_sound, volume_rel);
+    result = ma_sound_start(&g_curr_sound); //запуск проигрывания звука
+    if (result != MA_SUCCESS) {
+        std::cout << "Failed start sound " << sound_file_name << "\n";
+    }
+}
+
+...
+ma_sound_uninit(&g_curr_sound); //end of main
+```
 
 ### Кросс-платформенная обработка строк (UTF-8)
 
