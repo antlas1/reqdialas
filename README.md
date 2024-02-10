@@ -57,4 +57,6 @@
 | -------------------- | ----------- | ------------- | ----------- | -------------- | --------------- | -------------------|
 |  Сухим из воды       |   [link](https://github.com/antlas1/reqdialas/tree/main/quests/dry)    |  ГОТОВО     |  15.05.23   |  29.07.2023    |  [link](https://disk.yandex.ru/d/r3vkXM7XX2Isrg) |  -                 |  
 |  Тень на солце       |   [link](https://github.com/antlas1/reqdialas/tree/main/quests/sun)    |  ГОТОВО     |  01.10.23   |  14.11.2023    |  [link](https://disk.yandex.ru/d/ApuYmhtP4eiDwA) |  -                 |
+|  Синее пламя         |   [link](https://github.com/antlas1/reqdialas/tree/main/quests/blue_fire)    |  СВОБОДНО     |    |      |   |  -                 |  
+|  Белая роза          |   [link](https://github.com/antlas1/reqdialas/tree/main/quests/white_rose)    |  СВОБОДНО     |    |      |  |  -                 |
 
