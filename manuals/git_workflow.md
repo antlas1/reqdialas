@@ -15,7 +15,8 @@ GIT-СИСТЕМА -.->|Клиент| GitС3[Интеграция с VisualStudi
 
 GIT-СИСТЕМА - гит как система для контроля версий имеет локальную часть, которая ставится на рабочую машину разработчика и серверную часть (аналог облакак), которая настраивается через веб-интерфейс. При этом работа с гит происходит однообразно через гит-клиенты и стандартные операции.
 
-![[synchro.png]]
+
+![](./images/synchro.png)
 
 ### Основные сущности
 
@@ -34,38 +35,40 @@ flowchart TD
 **Ветка** (Branch) — это отдельная история изменений (**коммитов**) в рамках одного репозитория.
 ### Предварительные требования
 
-
+<details>
+<summary>Установлен Git-клиент на своем локальном компьютере</summary>
 > [!NOTE]
 > Установлен Git-клиент на своем локальном компьютере
 > * Правой кнопкой нажимаем на рабочем столе, есть в контекстном меню GIT GUI Here, Git Bash Here.
-> ![[Pasted image 20240618152052.png]]
+> ![](./images/Pasted%20image%2020240618152052.png)
 > * Открываем Git Bash Here и набираем `git version`
-> ![[Pasted image 20240618152211.png]]
+> ![](./images/Pasted%20image%2020240618152211.png)
 > 
 > Подробно: [guides/git/README.md at master · netology-code/guides (github.com)](https://github.com/netology-code/guides/blob/master/git/README.md) 
+</details>
 
 > [!NOTE]
 > Создан профиль на GitHub сервере
 > *Заходите на сайт github.com, нажимаете Sign In, логинетесь со своими данными
-> ![[Pasted image 20240618152814.png]]
+> ![](./images/Pasted%20image%2020240618152814.png)
 > *Отображается ваша домашняя страничка
-> ![[Pasted image 20240618153002.png]]
+> ![](./images/Pasted%20image%2020240618153002.png)
 > Подробно: [guides/github/README.md at master · netology-code/guides](https://github.com/netology-code/guides/blob/master/github/README.md)
 
 > [!NOTE]
 > Настроена конфигурация для гит-клиента имя пользователя и email на своем локальном компьютере
 > * Правой кнопкой нажимаем на рабочем столе, 
 > `git --global user.name`, `git --global user.email`. Выдача примерно такая (версия может отличаться):
-> ![[Pasted image 20240618161753.png]]
+> ![](./images/Pasted%20image%2020240618161753.png)
 > Подробно: [guides/git-terminal/git-terminal.md at master · netology-code/guides (github.com)](https://github.com/netology-code/guides/blob/master/git-terminal/git-terminal.md#%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-git) 
 
 > [!NOTE]
 > Настроен SSH-ключ
 > * Правой кнопкой нажимаем на рабочем столе Git Bash here,  ввести
 > `ls ~/.ssh`. Выдача примерно такая (версия может отличаться):
-> ![[Pasted image 20240618163149.png]]
+> ![](./images/Pasted%20image%2020240618163149.png)
 > * Заходим в настройки гитхаб, SSH and GPG keys. Смотрим, что там тоже есть ключ:
-> ![[Pasted image 20240618163827.png]]
+> ![](./images/Pasted%20image%2020240618163827.png)
 > Подробно: [guides/git-ssh at master · netology-code/guides (github.com)](https://github.com/netology-code/guides/tree/master/git-ssh)
 
 - [ ] Есть понимание клиент-серверной природы ГИТ и знакомство с основными понятиями
