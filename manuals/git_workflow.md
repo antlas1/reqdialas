@@ -1,5 +1,55 @@
-Порядок работы с git.
+# Типовые сценарии работы с git
 
+### Предварительные требования
+
+<details>
+<summary> ✔ Установлен Git-клиент на своем локальном компьютере</summary><p>
+
+* Правой кнопкой нажимаем на рабочем столе, есть в контекстном меню GIT GUI Here, Git Bash Here.
+![](./images/Pasted%20image%2020240618152052.png)
+* Открываем Git Bash Here и набираем `git version`
+![](./images/Pasted%20image%2020240618152211.png)
+ 
+Подробно: [guides/git/README.md at master · netology-code/guides (github.com)](https://github.com/netology-code/guides/blob/master/git/README.md) 
+
+</p></details>
+
+<details>
+<summary> ✔ Создан профиль на GitHub сервере</summary><p>
+
+* Заходите на сайт github.com, нажимаете Sign In, логинетесь со своими данными
+![](./images/Pasted%20image%2020240618152814.png)
+* Отображается ваша домашняя страничка
+![](./images/Pasted%20image%2020240618153002.png)
+
+Подробно: [guides/github/README.md at master · netology-code/guides](https://github.com/netology-code/guides/blob/master/github/README.md)
+
+</p></details>
+
+<details>
+<summary> ✔ Настроена конфигурация для гит-клиента имя пользователя и email на своем локальном компьютере </summary><p>
+  
+* Правой кнопкой нажимаем на рабочем столе, 
+`git --global user.name`, `git --global user.email`. Выдача примерно такая (версия может отличаться):
+![](./images/Pasted%20image%2020240618161753.png)
+Подробно: [guides/git-terminal/git-terminal.md at master · netology-code/guides (github.com)](https://github.com/netology-code/guides/blob/master/git-terminal/git-terminal.md#%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-git) 
+
+</p></details>
+
+<details>
+<summary> ✔ Настроен SSH-ключ </summary><p>
+
+* Правой кнопкой нажимаем на рабочем столе Git Bash here,  ввести
+`ls ~/.ssh`. Выдача примерно такая (версия может отличаться):
+![](./images/Pasted%20image%2020240618163149.png)
+* Заходим в настройки гитхаб, SSH and GPG keys. Смотрим, что там тоже есть ключ:
+![](./images/Pasted%20image%2020240618163827.png)
+Подробно: [guides/git-ssh at master · netology-code/guides (github.com)](https://github.com/netology-code/guides/tree/master/git-ssh)
+
+</p></details>
+
+<details>
+<summary> ✔ Есть понимание клиент-серверной природы ГИТ и знакомство с основными понятиями </summary><p>
 
 ### Система контроля версий
 
@@ -28,50 +78,13 @@ flowchart TD
 Ветка -->|Содержит| Коммит
 ```
 
-**Репозиторий** — некий каталог файловой системы, в котором находятся служебные файлы гит помимо файлов. 
-**Локальный репозиторий** — репозиторий, расположенный на локальном компьютере разработчика в каталоге. Именно в нём происходит разработка и фиксация изменений, которые отправляются на удаленный репозиторий.
-**Удаленный репозиторий** — репозиторий, находящийся на удаленном сервере. Это общий репозиторий, в который приходят все изменения, и из которого забираются все обновления.
-**Коммит** (Commit) — это объект, содержащий информацию об изменённых файлах. Представляйте его себе в виде zip-архива с подписью-хешем.
-**Ветка** (Branch) — это отдельная история изменений (**коммитов**) в рамках одного репозитория.
-### Предварительные требования
+**Репозиторий** — некий каталог файловой системы, в котором находятся служебные файлы гит помимо файлов.     
+**Локальный репозиторий** — репозиторий, расположенный на локальном компьютере разработчика в каталоге. Именно в нём происходит разработка и фиксация изменений, которые отправляются на удаленный репозиторий.    
+**Удаленный репозиторий** — репозиторий, находящийся на удаленном сервере. Это общий репозиторий, в который приходят все изменения, и из которого забираются все обновления.    
+**Коммит** (Commit) — это объект, содержащий информацию об изменённых файлах. Представляйте его себе в виде zip-архива с подписью-хешем.    
+**Ветка** (Branch) — это отдельная история изменений (**коммитов**) в рамках одного репозитория.    
 
-<details>
-<summary>Установлен Git-клиент на своем локальном компьютере</summary>
-> [!NOTE]
-> Установлен Git-клиент на своем локальном компьютере
-> * Правой кнопкой нажимаем на рабочем столе, есть в контекстном меню GIT GUI Here, Git Bash Here.
-> ![](./images/Pasted%20image%2020240618152052.png)
-> * Открываем Git Bash Here и набираем `git version`
-> ![](./images/Pasted%20image%2020240618152211.png)
-> 
-> Подробно: [guides/git/README.md at master · netology-code/guides (github.com)](https://github.com/netology-code/guides/blob/master/git/README.md) 
-</details>
-
-> [!NOTE]
-> Создан профиль на GitHub сервере
-> *Заходите на сайт github.com, нажимаете Sign In, логинетесь со своими данными
-> ![](./images/Pasted%20image%2020240618152814.png)
-> *Отображается ваша домашняя страничка
-> ![](./images/Pasted%20image%2020240618153002.png)
-> Подробно: [guides/github/README.md at master · netology-code/guides](https://github.com/netology-code/guides/blob/master/github/README.md)
-
-> [!NOTE]
-> Настроена конфигурация для гит-клиента имя пользователя и email на своем локальном компьютере
-> * Правой кнопкой нажимаем на рабочем столе, 
-> `git --global user.name`, `git --global user.email`. Выдача примерно такая (версия может отличаться):
-> ![](./images/Pasted%20image%2020240618161753.png)
-> Подробно: [guides/git-terminal/git-terminal.md at master · netology-code/guides (github.com)](https://github.com/netology-code/guides/blob/master/git-terminal/git-terminal.md#%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-git) 
-
-> [!NOTE]
-> Настроен SSH-ключ
-> * Правой кнопкой нажимаем на рабочем столе Git Bash here,  ввести
-> `ls ~/.ssh`. Выдача примерно такая (версия может отличаться):
-> ![](./images/Pasted%20image%2020240618163149.png)
-> * Заходим в настройки гитхаб, SSH and GPG keys. Смотрим, что там тоже есть ключ:
-> ![](./images/Pasted%20image%2020240618163827.png)
-> Подробно: [guides/git-ssh at master · netology-code/guides (github.com)](https://github.com/netology-code/guides/tree/master/git-ssh)
-
-- [ ] Есть понимание клиент-серверной природы ГИТ и знакомство с основными понятиями
+</p></details>
 
 ### Сольная разработка github + visual studio
 
