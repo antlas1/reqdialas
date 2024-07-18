@@ -5,6 +5,7 @@
 * Выпуск релизов: [link](https://github.com/antlas1/reqdialas/blob/main/manuals/release.md)
 * Типы управления в текстовых играх: [link](https://github.com/antlas1/reqdialas/blob/main/controltypes.md)
 
+
 ## Законченные проекты
 
 | Проект               | Краткое описание                                                                                            | Размер    | Сложность | Стартовое ТЗ| Состояние     | Дата начала | Дата окончания | Ссылка на релиз | Ссылка на исходник |
